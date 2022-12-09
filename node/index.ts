@@ -3,6 +3,7 @@ import schema from 'vtex.is-api-middleware-graphql/graphql'
 
 import { Clients, clients } from './clients'
 import before from './resolvers/before'
+import after from './resolvers/after'
 
 export default new Service<Clients, RecorderState, ParamsContext>({
   clients,
@@ -10,6 +11,7 @@ export default new Service<Clients, RecorderState, ParamsContext>({
     resolvers: {
       Query: {
         before,
+        after,
       },
     },
     schema,
