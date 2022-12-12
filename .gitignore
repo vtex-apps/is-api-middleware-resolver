@@ -4,3 +4,4 @@ node_modules
 node/**/!(main).js
 node/**/*.js.map
 node/package-lock.json
+node/yarn-error.log
