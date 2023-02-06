@@ -215,10 +215,10 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@vtex/api@6.45.13":
-  version "6.45.13"
-  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.45.13.tgz#836c392fa9567009e34559f08698f6efc95e88cc"
-  integrity sha512-P22/ObNdsgLvagetcDrovFfSXHe8Jb4yHud4U0rXHfIYEIMSnEdQ/QHujF3CEa5AiZnvbR/5W5ynGtWHYHOv9A==
+"@vtex/api@6.45.15":
+  version "6.45.15"
+  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.45.15.tgz#aa987d22f7df16ce2861130deda6ffd63156817b"
+  integrity sha512-Rg1VGDzJ4hHUNp1vSidMdGGPojr1PikMTptlZsJ3oNZVdEo4cPx2l8ZcAEwHWORL7QjPjXaEgmeA5ZOSf+boCQ==
   dependencies:
     "@types/koa" "^2.11.0"
     "@types/koa-compose" "^3.2.3"
@@ -2990,9 +2990,9 @@ vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-"vtex.is-api-middleware-graphql@http://hiago--storecomponents.myvtex.com/_v/public/typings/v1/vtex.is-api-middleware-graphql@0.1.0-beta.3/public":
+"vtex.is-api-middleware-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.is-api-middleware-graphql@0.1.0-beta.4/public":
   version "0.0.0"
-  resolved "http://hiago--storecomponents.myvtex.com/_v/public/typings/v1/vtex.is-api-middleware-graphql@0.1.0-beta.3/public#f53d81dee1c69a6d01a9457a6e09b45a8be2d8c0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.is-api-middleware-graphql@0.1.0-beta.4/public#e9ee866ba053bd238e0d38aee74af19ad86badad"
 
 which-pm-runs@^1.0.0:
   version "1.0.0"
