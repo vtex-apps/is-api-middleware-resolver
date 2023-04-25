@@ -14,7 +14,13 @@ export default async function before(
       },
     ]
 
-    return { ...args, dynamicRules: myDynamicRules }
+    return {
+      ...args,
+      dynamicRules: myDynamicRules,
+      customPluginInfo: JSON.stringify({
+        info: 'this will be shared to the after middleware',
+      }),
+    }
   }
 
   return args

@@ -1,5 +1,9 @@
 type AfterArgs = {
-  args: { searchResult: ProductSearchResult; params: SearchParams }
+  args: {
+    searchResult: ProductSearchResult
+    params: SearchParams
+    customPluginInfo: string
+  }
 }
 
 export default async function after(

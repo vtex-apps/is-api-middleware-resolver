@@ -52,6 +52,7 @@ declare global {
     selectedFacets?: SelectedFacet[]
     dynamicRules?: DynamicRule[]
     searchState?: string
+    customPluginInfo?: string
   }
 
   type Category = {

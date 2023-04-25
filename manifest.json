@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "is-api-middleware-resolver",
-  "version": "0.2.0-beta.0",
+  "version": "0.2.0-beta.1",
   "title": "Intelligent Search API middleware resolver",
   "description": "Implementation of the GraphQL schema for the intelligent search middleware.",
   "builders": {
