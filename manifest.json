@@ -1,15 +1,15 @@
 {
   "vendor": "vtex",
-  "name": "is-api-middleware-resolver",
+  "name": "adserver-resolver",
   "version": "0.0.1",
-  "title": "Intelligent Search API middleware resolver",
-  "description": "Implementation of the GraphQL schema for the intelligent search middleware.",
+  "title": "Intelligent Search API adserver resolver",
+  "description": "Implementation of the GraphQL schema for the intelligent search adserver.",
   "builders": {
     "docs": "0.x",
     "node": "6.x"
   },
   "dependencies": {
-    "vtex.is-api-middleware-graphql": "0.x"
+    "vtex.adserver-graphql": "0.x"
   },
   "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

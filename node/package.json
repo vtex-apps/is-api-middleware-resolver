@@ -1,16 +1,16 @@
 {
-  "name": "is-api-middleware-resolver",
+  "name": "adserver-resolver",
   "private": true,
   "license": "UNLICENSED",
   "dependencies": {
     "graphql": "^14.5.8",
     "graphql-tools": "^4.0.6",
-    "vtex.is-api-middleware-graphql": "http://hiago--storecomponents.myvtex.com/_v/public/typings/v1/vtex.is-api-middleware-graphql@0.0.2/public"
+    "vtex.adserver-graphql": "http://hiago--storecomponents.myvtex.com/_v/public/typings/v1/vtex.adserver-graphql@0.0.1-beta.0/public"
   },
   "devDependencies": {
     "@types/atob": "^2.1.2",
     "@types/node": "^12.12.21",
-    "@vtex/api": "6.45.12",
+    "@vtex/api": "6.45.19",
     "@vtex/prettier-config": "^0.1.3",
     "eslint": "^6.8.0",
     "eslint-config-vtex": "^12.2.1",

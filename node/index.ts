@@ -1,15 +1,15 @@
 import { Service, RecorderState, ParamsContext } from '@vtex/api'
-import schema from 'vtex.is-api-middleware-graphql/graphql'
+import schema from 'vtex.adserver-graphql/graphql'
 
 import { Clients, clients } from './clients'
-import before from './resolvers/before'
+import sponsoredProducts from './resolvers/sponsoredProducts'
 
 export default new Service<Clients, RecorderState, ParamsContext>({
   clients,
   graphql: {
     resolvers: {
       Query: {
-        before,
+        sponsoredProducts,
       },
     },
     schema,

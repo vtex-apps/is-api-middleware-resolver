@@ -53,4 +53,13 @@ declare global {
     dynamicRules?: DynamicRule[]
     searchState?: string
   }
+
+  type Rule = {
+    id: string
+  }
+
+  type SponsoredProduct = {
+    productId: string
+    rule: Rule
+  }
 }
