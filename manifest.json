@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "adserver-resolver",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.0",
   "title": "Intelligent Search API adserver resolver",
   "description": "Implementation of the GraphQL schema for the intelligent search adserver.",
   "builders": {

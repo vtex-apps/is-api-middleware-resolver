@@ -6,6 +6,6 @@ export default async function sponsoredProducts(
   // This is just an example. Change the implementation of this function however you like :)
 
   return [
-    {productId: '123', rule: {id: 'promotedProduct'}}
+    {productId: '1', rule: {id: 'promotedProduct'}}
   ]
 }
